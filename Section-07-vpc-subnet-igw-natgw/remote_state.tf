@@ -5,6 +5,5 @@ terraform {
     key            = "stage_vpc/terraform.tfstate"
     region         = "eu-central-1"
     dynamodb_table = "terraform-state"
-    profile = "personal"
   }
 }
